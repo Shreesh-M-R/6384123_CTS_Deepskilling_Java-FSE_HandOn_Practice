@@ -1,0 +1,6 @@
+com\mycompany\decorator_pattern\Decorator_Pattern.class
+com\mycompany\decorator_pattern\EmailNotifier.class
+com\mycompany\decorator_pattern\Notifier.class
+com\mycompany\decorator_pattern\NotifierDecorator.class
+com\mycompany\decorator_pattern\SMSNotifierDecorator.class
+com\mycompany\decorator_pattern\SlackNotifierDecorator.class
