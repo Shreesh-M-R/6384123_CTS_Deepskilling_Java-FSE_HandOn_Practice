@@ -1,0 +1,6 @@
+C:\Users\KING FAZIL\Documents\NetBeansProjects\AdapterPattern\src\main\java\com\mycompany\adapterpattern\Main.java
+C:\Users\KING FAZIL\Documents\NetBeansProjects\AdapterPattern\src\main\java\com\mycompany\adapterpattern\PaymentProcessor.java
+C:\Users\KING FAZIL\Documents\NetBeansProjects\AdapterPattern\src\main\java\com\mycompany\adapterpattern\PayPalAdapter.java
+C:\Users\KING FAZIL\Documents\NetBeansProjects\AdapterPattern\src\main\java\com\mycompany\adapterpattern\PayPalGateway.java
+C:\Users\KING FAZIL\Documents\NetBeansProjects\AdapterPattern\src\main\java\com\mycompany\adapterpattern\StripeAdapter.java
+C:\Users\KING FAZIL\Documents\NetBeansProjects\AdapterPattern\src\main\java\com\mycompany\adapterpattern\StripeGateway.java

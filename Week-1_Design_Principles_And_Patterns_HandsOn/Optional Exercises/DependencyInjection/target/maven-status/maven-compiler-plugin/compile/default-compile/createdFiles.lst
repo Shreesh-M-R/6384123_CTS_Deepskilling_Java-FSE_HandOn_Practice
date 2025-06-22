@@ -1,0 +1,4 @@
+com\mycompany\dependencyinjection\CustomerRepositoryImpl.class
+com\mycompany\dependencyinjection\DependencyInjection.class
+com\mycompany\dependencyinjection\CustomerService.class
+com\mycompany\dependencyinjection\CustomerRepository.class

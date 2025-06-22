@@ -1,0 +1,9 @@
+com\mycompany\commandpattern\CommandPattern.class
+com\mycompany\commandpattern\FanOffCommand.class
+com\mycompany\commandpattern\Light.class
+com\mycompany\commandpattern\RemoteControl.class
+com\mycompany\commandpattern\FanOnCommand.class
+com\mycompany\commandpattern\LightOnCommand.class
+com\mycompany\commandpattern\LightOffCommand.class
+com\mycompany\commandpattern\Fan.class
+com\mycompany\commandpattern\Command.class

@@ -1,0 +1,6 @@
+com\mycompany\adapterpattern\StripeAdapter.class
+com\mycompany\adapterpattern\PaymentProcessor.class
+com\mycompany\adapterpattern\Main.class
+com\mycompany\adapterpattern\PayPalGateway.class
+com\mycompany\adapterpattern\StripeGateway.class
+com\mycompany\adapterpattern\PayPalAdapter.class
