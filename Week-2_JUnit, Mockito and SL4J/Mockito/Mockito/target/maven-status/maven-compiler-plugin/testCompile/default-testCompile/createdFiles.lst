@@ -1,0 +1,4 @@
+com\mycompany\mockito\MyServiceVoidTest.class
+com\mycompany\mockito\MyServiceArgumentTest.class
+com\mycompany\mockito\MyServiceTest.class
+com\mycompany\mockito\MyServiceExceptionTest.class

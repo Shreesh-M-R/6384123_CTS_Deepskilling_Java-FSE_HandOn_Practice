@@ -1,0 +1,9 @@
+com\mycompany\mockitoadvanced\NetworkClient.class
+com\mycompany\mockitoadvanced\Repository.class
+com\mycompany\mockitoadvanced\ApiService.class
+com\mycompany\mockitoadvanced\FileWriter.class
+com\mycompany\mockitoadvanced\RestClient.class
+com\mycompany\mockitoadvanced\NetworkService.class
+com\mycompany\mockitoadvanced\Service.class
+com\mycompany\mockitoadvanced\FileService.class
+com\mycompany\mockitoadvanced\FileReader.class
