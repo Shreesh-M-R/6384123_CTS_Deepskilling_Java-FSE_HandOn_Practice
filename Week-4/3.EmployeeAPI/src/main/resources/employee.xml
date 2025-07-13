@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+         http://www.springframework.org/schema/beans
+         https://www.springframework.org/schema/beans/spring-beans.xsd
+         http://www.springframework.org/schema/util
+         https://www.springframework.org/schema/util/spring-util.xsd">
+
+    <!-- Skills -->
+    <bean id="skill1" class="com.example.Emolyeeapi.model.Skill">
+        <property name="id" value="1"/>
+        <property name="name" value="Java"/>
+    </bean>
+    <bean id="skill2" class="com.example.Emolyeeapi.model.Skill">
+        <property name="id" value="2"/>
+        <property name="name" value="Spring"/>
+    </bean>
+    <bean id="skill3" class="com.example.Emolyeeapi.model.Skill">
+        <property name="id" value="3"/>
+        <property name="name" value="Angular"/>
+    </bean>
+
+    <!-- Departments -->
+    <bean id="dept1" class="com.example.Emolyeeapi.model.Department">
+        <property name="id" value="10"/>
+        <property name="name" value="Engineering"/>
+    </bean>
+    <bean id="dept2" class="com.example.Emolyeeapi.model.Department">
+        <property name="id" value="20"/>
+        <property name="name" value="HR"/>
+    </bean>
+    <bean id="dept3" class="com.example.Emolyeeapi.model.Department">
+        <property name="id" value="30"/>
+        <property name="name" value="Marketing"/>
+    </bean>
+
+    <!-- Employees -->
+    <bean id="emp1" class="com.example.Emolyeeapi.model.Employee">
+        <property name="id" value="101"/>
+        <property name="name" value="Alice Johnson"/>
+        <property name="email" value="alice@example.com"/>
+        <property name="department" ref="dept1"/>
+        <property name="skills">
+            <list>
+                <ref bean="skill1"/>
+                <ref bean="skill2"/>
+            </list>
+        </property>
+    </bean>
+    <bean id="emp2" class="com.example.Emolyeeapi.model.Employee">
+        <property name="id" value="102"/>
+        <property name="name" value="Bob Smith"/>
+        <property name="email" value="bob@example.com"/>
+        <property name="department" ref="dept2"/>
+        <property name="skills">
+            <list>
+                <ref bean="skill2"/>
+                <ref bean="skill3"/>
+            </list>
+        </property>
+    </bean>
+    <bean id="emp3" class="com.example.Emolyeeapi.model.Employee">
+        <property name="id" value="103"/>
+        <property name="name" value="Carol White"/>
+        <property name="email" value="carol@example.com"/>
+        <property name="department" ref="dept3"/>
+        <property name="skills">
+            <list>
+                <ref bean="skill3"/>
+            </list>
+        </property>
+    </bean>
+    <bean id="emp4" class="com.example.Emolyeeapi.model.Employee">
+        <property name="id" value="104"/>
+        <property name="name" value="David Brown"/>
+        <property name="email" value="david@example.com"/>
+        <property name="department" ref="dept1"/>
+        <property name="skills">
+            <list>
+                <ref bean="skill1"/>
+                <ref bean="skill2"/>
+                <ref bean="skill3"/>
+            </list>
+        </property>
+    </bean>
+
+    <!-- Employee List -->
+    <util:list id="employeeList" value-type="com.example.Emolyeeapi.model.Employee">
+        <ref bean="emp1"/>
+        <ref bean="emp2"/>
+        <ref bean="emp3"/>
+        <ref bean="emp4"/>
+    </util:list>
+
+    <!-- Department List -->
+    <util:list id="departmentList" value-type="com.example.Emolyeeapi.model.Department">
+        <ref bean="dept1"/>
+        <ref bean="dept2"/>
+        <ref bean="dept3"/>
+    </util:list>
+</beans>
