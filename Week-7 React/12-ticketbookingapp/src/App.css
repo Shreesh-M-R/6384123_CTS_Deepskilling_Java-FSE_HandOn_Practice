@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  min-height: 100vh;
+}
+
+h1 {
+  color: #2c3e50;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+button{
+  padding: 10px 20px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #2c3e50;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #f0f0f0;
+}
+
+.flight-list {
+  margin: 20px auto;
+  max-width: 600px;
+  text-align: left;
+}
+
+.flight-item {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.flight-item:last-child {
+  border-bottom: none;
+}
+
+.book-button {
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: #0370b8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; 
+}
+
+h2 {
+  color: #34495e;
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #7f8c8d;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #34495e;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
