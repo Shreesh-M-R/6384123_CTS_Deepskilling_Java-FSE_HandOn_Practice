@@ -1,0 +1,167 @@
+/* Body and Main Container */
+.app-body {
+  background: linear-gradient(to bottom right, #e0f2fe, #f3f4f6);
+  min-height: 100vh;
+}
+
+.app-container {
+  padding: 2rem;
+}
+
+.content-wrapper {
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+/* Typography */
+.main-title {
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: #1f2937;
+  text-align: center;
+  margin-bottom: 2rem;
+  letter-spacing: -0.025em;
+}
+
+.section-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+
+.item-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #2563eb;
+}
+
+.item-text {
+  color: #4b5563;
+}
+
+.status-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.status-text, .premium-text {
+  color: #4b5563;
+}
+
+.premium-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #15803d;
+}
+
+.empty-state {
+  color: #6b7280;
+  font-style: italic;
+}
+
+/* Navigation */
+.nav-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.nav-button {
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  background-color: #e5e7eb;
+  color: #374151;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.nav-button:hover {
+  background-color: #bfdbfe;
+}
+
+.nav-button-active {
+  background-color: #2563eb;
+  color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.login-button {
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  background-color: #22c55e;
+  color: #ffffff;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #16a34a;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Content Cards */
+.content-card {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.status-card {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.status-card.logged-in {
+  background-color: #eff6ff;
+}
+
+.status-card.guest {
+  background-color: #f3f4f6;
+}
+
+.premium-card {
+  padding: 1rem;
+  background-color: #f0fdf4;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.section-header {
+  margin-bottom: 1.5rem;
+}
+
+/* Items Grid */
+.all-items-section {
+  margin-top: 2rem;
+}
+
+.items-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .items-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.item-card {
+  padding: 1.5rem;
+  background-color: #f9fafb;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.item-card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
